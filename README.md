@@ -1,5 +1,5 @@
 # 👋 Hi, I'm Vatsal!
-👩🏻‍💻 AI/ML Engineer with a knack for building innovative solutions that solve real-world problems.<br/>
+👩🏻‍💻 Machine Learning Engineer with a knack for building innovative solutions that solve real-world problems.<br/>
 👩🏻‍🎓 Studied Computer Science at the Long Island University, Brooklyn<br/>
 
 ---

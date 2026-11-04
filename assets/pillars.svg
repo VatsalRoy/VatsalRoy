@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="210" viewBox="0 0 1200 210">
+  <style>
+    .sans{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+    .mono{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+    .t{font-size:30px;font-weight:800;fill:#f8fafc}
+    .d{font-size:20px;fill:#94a3b8}
+    .k{font-size:16px;letter-spacing:1.5px}
+  </style>
+  <g>
+    <rect x=".5" y=".5" width="386" height="209" rx="18" fill="#0b1220" stroke="#24324f"/>
+    <rect x="0" y="0" width="386" height="5" rx="2.5" fill="#38bdf8"/>
+    <text x="32" y="52" class="mono k" fill="#38bdf8">01 · BUILD</text>
+    <text x="32" y="96" class="sans t">Agents that run</text>
+    <text x="32" y="134" class="sans d">Tool-using agents, RAG and</text>
+    <text x="32" y="162" class="sans d">self-healing LLM pipelines that</text>
+    <text x="32" y="190" class="sans d">work without a human watching.</text>
+  </g>
+  <g transform="translate(406,0)">
+    <rect x=".5" y=".5" width="386" height="209" rx="18" fill="#0b1220" stroke="#24324f"/>
+    <rect x="0" y="0" width="386" height="5" rx="2.5" fill="#34d399"/>
+    <text x="32" y="52" class="mono k" fill="#34d399">02 · PROVE</text>
+    <text x="32" y="96" class="sans t">Evals that bite</text>
+    <text x="32" y="134" class="sans d">I grade agents on what actually</text>
+    <text x="32" y="162" class="sans d">changed, not what they claim,</text>
+    <text x="32" y="190" class="sans d">and I count every token's cost.</text>
+  </g>
+  <g transform="translate(812,0)">
+    <rect x=".5" y=".5" width="386" height="209" rx="18" fill="#0b1220" stroke="#24324f"/>
+    <rect x="0" y="0" width="386" height="5" rx="2.5" fill="#fbbf24"/>
+    <text x="32" y="52" class="mono k" fill="#fbbf24">03 · SHIP</text>
+    <text x="32" y="96" class="sans t">With the customer</text>
+    <text x="32" y="134" class="sans d">From messy data and a vague</text>
+    <text x="32" y="162" class="sans d">problem to deployed APIs, UIs</text>
+    <text x="32" y="190" class="sans d">and monitoring in production.</text>
+  </g>
+</svg>

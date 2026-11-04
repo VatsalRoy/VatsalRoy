@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0f1c"/>
+      <stop offset="1" stop-color="#101b33"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.5" r="0.45">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#1e2a44" stroke-width="1"/>
+    </pattern>
+    <clipPath id="card"><rect width="1200" height="340" rx="22"/></clipPath>
+    <style>
+      .sans{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+      .mono{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+      .flow{stroke-dasharray:6 10;animation:flow 1.4s linear infinite}
+      @keyframes flow{to{stroke-dashoffset:-32}}
+      .pulse{animation:pulse 2.8s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+      .d1{animation-delay:.7s}.d2{animation-delay:1.4s}.d3{animation-delay:2.1s}
+      @keyframes pulse{0%,100%{opacity:.55}50%{opacity:1}}
+      .cursor{animation:blink 1s steps(1) infinite}
+      @keyframes blink{50%{opacity:0}}
+      .fade{opacity:0;animation:fade .9s ease-out forwards}
+      .f2{animation-delay:.25s}.f3{animation-delay:.5s}.f4{animation-delay:.75s}
+      @keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+    </style>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="340" fill="url(#bg)"/>
+    <rect width="1200" height="340" fill="url(#grid)" opacity=".55"/>
+    <rect width="1200" height="340" fill="url(#glow)"/>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="339" rx="22" fill="none" stroke="#24324f"/>
+
+  <!-- left: identity -->
+  <g class="fade">
+    <text x="64" y="78" class="mono" font-size="18" fill="#38bdf8">~/vatsal-roy $ <tspan fill="#94a3b8">whoami</tspan><tspan class="cursor" fill="#38bdf8"> ▍</tspan></text>
+  </g>
+  <g class="fade f2">
+    <text x="62" y="152" class="sans" font-size="72" font-weight="800" fill="#f8fafc" letter-spacing="-1.5">Vatsal Roy</text>
+  </g>
+  <g class="fade f3">
+    <text x="64" y="196" class="sans" font-size="26" font-weight="600" fill="#cbd5e1">AI / ML Engineer  <tspan fill="#38bdf8">·</tspan>  Forward Deployed Engineer</text>
+    <text x="64" y="234" class="sans" font-size="20" fill="#94a3b8">I build LLM agents and ML systems, then prove they work in production.</text>
+  </g>
+  <g class="fade f4 mono" font-size="15">
+    <g transform="translate(64,262)">
+      <rect width="118" height="34" rx="17" fill="#0f2a3d" stroke="#1d4e6b"/><text x="59" y="22" text-anchor="middle" fill="#7dd3fc">LLM Agents</text>
+    </g>
+    <g transform="translate(192,262)">
+      <rect width="80" height="34" rx="17" fill="#0f2f26" stroke="#1d5c47"/><text x="40" y="22" text-anchor="middle" fill="#6ee7b7">Evals</text>
+    </g>
+    <g transform="translate(282,262)">
+      <rect width="68" height="34" rx="17" fill="#2a1f3d" stroke="#4c3a73"/><text x="34" y="22" text-anchor="middle" fill="#c4b5fd">RAG</text>
+    </g>
+    <g transform="translate(360,262)">
+      <rect width="82" height="34" rx="17" fill="#3a2a10" stroke="#6b4e1d"/><text x="41" y="22" text-anchor="middle" fill="#fcd34d">MLOps</text>
+    </g>
+    <g transform="translate(452,262)">
+      <rect width="168" height="34" rx="17" fill="#1e2536" stroke="#334155"/><text x="84" y="22" text-anchor="middle" fill="#cbd5e1">Customer-facing AI</text>
+    </g>
+  </g>
+
+  <!-- right: agent loop -->
+  <g transform="translate(930,170)">
+    <circle r="112" fill="none" stroke="#1e3a5f" stroke-width="2"/>
+    <circle r="112" fill="none" stroke="#38bdf8" stroke-width="2.5" class="flow" opacity=".9"/>
+    <circle r="62" fill="#0b1426" stroke="#24324f"/>
+    <text y="-6" text-anchor="middle" class="mono" font-size="15" fill="#64748b">agent</text>
+    <text y="16" text-anchor="middle" class="mono" font-size="15" fill="#64748b">loop</text>
+
+    <g class="pulse"><g transform="translate(0,-112)">
+      <rect x="-56" y="-18" width="112" height="36" rx="10" fill="#0f2a3d" stroke="#38bdf8"/>
+      <text y="6" text-anchor="middle" class="mono" font-size="16" fill="#e0f2fe">plan</text></g></g>
+    <g class="pulse d1"><g transform="translate(112,0)">
+      <rect x="-56" y="-18" width="112" height="36" rx="10" fill="#2a1f3d" stroke="#a78bfa"/>
+      <text y="6" text-anchor="middle" class="mono" font-size="16" fill="#ede9fe">call tool</text></g></g>
+    <g class="pulse d2"><g transform="translate(0,112)">
+      <rect x="-56" y="-18" width="112" height="36" rx="10" fill="#3a2a10" stroke="#fbbf24"/>
+      <text y="6" text-anchor="middle" class="mono" font-size="16" fill="#fef3c7">observe</text></g></g>
+    <g class="pulse d3"><g transform="translate(-112,0)">
+      <rect x="-56" y="-18" width="112" height="36" rx="10" fill="#0f2f26" stroke="#34d399"/>
+      <text y="6" text-anchor="middle" class="mono" font-size="16" fill="#d1fae5">verify ✓</text></g></g>
+  </g>
+</svg>

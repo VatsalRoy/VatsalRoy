@@ -1,82 +1,100 @@
-# 👋 Hi, I'm Vatsal!
-👩🏻‍💻 Machine Learning Engineer with a knack for building innovative solutions that solve real-world problems.<br/>
-👩🏻‍🎓 Studied Computer Science at the Long Island University, Brooklyn<br/>
+<a href="https://vatsal-roy-portfolio.vercel.app">
+  <img src="assets/header.svg" width="100%" alt="Vatsal Roy · AI / ML Engineer · Forward Deployed Engineer"/>
+</a>
+
+<p align="center">
+  <a href="https://vatsal-roy-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portfolio-0b1220?style=for-the-badge&logo=vercel&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/vatsal-roy/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="mailto:vatsal.roy2429@gmail.com"><img src="https://img.shields.io/badge/Email-0b1220?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://huggingface.co/vatsal-roy-29"><img src="https://img.shields.io/badge/Hugging_Face-0b1220?style=for-the-badge&logo=huggingface&logoColor=FFD21E"/></a>
+</p>
+
+<img src="assets/stats.svg" width="100%" alt="99.2% production ML uptime · 25% faster model dev · 5M+ records · 25+ projects"/>
+
+<br/>
+
+<img src="assets/pillars.svg" width="100%" alt="Build agents that run · Prove them with evals · Ship with the customer"/>
+
+## Featured work
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/VatsalRoy/agent-reliability-bench"><img src="assets/card-agent-bench.svg" width="100%" alt="Agent Reliability Bench"/></a>
+      <p align="center"><a href="https://github.com/VatsalRoy/agent-reliability-bench"><b>Code</b></a> · <a href="https://vatsalroy.github.io/agent-reliability-bench/"><b>Explore every run ↗</b></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/VatsalRoy/keep-it-warm"><img src="assets/card-keep-it-warm.svg" width="100%" alt="Keep It Warm"/></a>
+      <p align="center"><a href="https://github.com/VatsalRoy/keep-it-warm"><b>Code &amp; paper</b></a> · <a href="https://huggingface.co/spaces/vatsal-roy-29/agent-cache-bill-viewer"><b>Trace viewer ↗</b></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/VatsalRoy/shadow-ai-privacy-auditor"><img src="assets/card-shadow-ai.svg" width="100%" alt="Shadow AI Privacy Auditor"/></a>
+      <p align="center"><a href="https://github.com/VatsalRoy/shadow-ai-privacy-auditor"><b>Code</b></a> · <a href="https://shadow-ai-frontend.onrender.com"><b>Live demo ↗</b></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/VatsalRoy/call-center-speech-analytics"><img src="assets/card-speech.svg" width="100%" alt="Call Center Speech Analytics"/></a>
+      <p align="center"><a href="https://github.com/VatsalRoy/call-center-speech-analytics"><b>Code</b></a></p>
+    </td>
+  </tr>
+</table>
+
+<details>
+  <summary><b>More projects in ML, deep learning &amp; applied AI</b></summary>
+  <br/>
+
+| | Project | What it does | Built with |
+|:-:|---|---|---|
+| 🫀 | [**Cardiomegaly Detection**](https://github.com/VatsalRoy/CardiomegalyPridiction) | CNN on 5,447 chest X-rays: **AUC 0.906**, reward-driven hyperparameter search, **3× faster** training | TensorFlow · HDF5 |
+| 🌍 | [**Multilingual AI**](https://github.com/VatsalRoy/multilingual-ai) | Q&A over long-form videos in foreign languages | AssemblyAI LeMUR · Claude |
+| 🧬 | [**Protein Lab**](https://github.com/VatsalRoy/protein-lab) | ESMFold structure prediction with 3D views and pLDDT confidence | Streamlit · py3Dmol |
+| 🎛️ | [**ML Studio**](https://github.com/VatsalRoy/ml-studio) | No-code Random Forest studio: upload a CSV, tune and evaluate live | Streamlit · scikit-learn |
+| 🎯 | [**Potential Customer Prediction**](https://github.com/VatsalRoy/Potential-Customer-Prediction) | Lead-conversion classification for an EdTech business | scikit-learn · Pandas |
+| 🖼️ | [**Image Classification**](https://github.com/VatsalRoy/imageClassificationDL) | Image classification with CNNs | TensorFlow / Keras |
+
+</details>
+
+## Experience
+
+**Community Dreams Foundation** · *current*  
+Anomaly detection in customer behavioral-data pipelines; A/B results turned into self-serve dashboards that product teams use.
+
+**NMR Infotech**  
+Standardized feature-engineering frameworks across 8+ client projects (**−25% model dev time**); automated drift monitoring and rollback kept production ML at **99.2% uptime**.
+
+**Full-stack developer** · *where I started*  
+React, Node.js and REST APIs, the foundation that lets me ship AI end to end.
+
+<sub>🎓 <b>M.S. Computer Science</b>, Long Island University, Brooklyn &nbsp;·&nbsp; <b>B.S. Computer Engineering</b>, Gujarat Technological University</sub>
+
+## Toolkit
+
+<p>
+  <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,sklearn,fastapi,flask,nodejs,react,ts,aws,docker,postgres,mongodb,git,linux&theme=dark" alt="Tech stack icons"/>
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/OpenAI-0b1220?style=flat-square&logo=openai&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Claude-0b1220?style=flat-square&logo=anthropic&logoColor=D97757"/>
+  <img src="https://img.shields.io/badge/LangChain-0b1220?style=flat-square&logo=langchain&logoColor=white"/>
+  <img src="https://img.shields.io/badge/LangGraph-0b1220?style=flat-square&logo=langchain&logoColor=white"/>
+  <img src="https://img.shields.io/badge/LlamaIndex-0b1220?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Hugging_Face-0b1220?style=flat-square&logo=huggingface&logoColor=FFD21E"/>
+  <img src="https://img.shields.io/badge/vLLM-0b1220?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Ollama-0b1220?style=flat-square&logo=ollama&logoColor=white"/>
+  <img src="https://img.shields.io/badge/spaCy-0b1220?style=flat-square&logo=spacy&logoColor=09A3D5"/>
+  <img src="https://img.shields.io/badge/PySpark-0b1220?style=flat-square&logo=apachespark&logoColor=E25A1C"/>
+  <img src="https://img.shields.io/badge/Databricks-0b1220?style=flat-square&logo=databricks&logoColor=FF3621"/>
+  <img src="https://img.shields.io/badge/Airflow-0b1220?style=flat-square&logo=apacheairflow&logoColor=017CEE"/>
+  <img src="https://img.shields.io/badge/SageMaker-0b1220?style=flat-square&logo=amazonaws&logoColor=FF9900"/>
+  <img src="https://img.shields.io/badge/Streamlit-0b1220?style=flat-square&logo=streamlit&logoColor=FF4B4B"/>
+  <img src="https://img.shields.io/badge/SQL-0b1220?style=flat-square&logo=mysql&logoColor=white"/>
+</p>
 
 ---
 
-## 🛠 Tech Stack
-
-### 🧑‍💻 Programming & ML Libraries  
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-000000?style=flat&logoColor=white)
-![LlamaIndex](https://img.shields.io/badge/LlamaIndex-000000?style=flat&logoColor=white)
-
-### 📊 Data Wrangling & Visualization  
-![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-3B3B3B?style=flat)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat)
-![Seaborn](https://img.shields.io/badge/Seaborn-43B6C7?style=flat)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat)
-
-### 🤖 LLM & Generative AI  
-![GPT-4](https://img.shields.io/badge/GPT--4-412991?style=flat&logo=openai&logoColor=white)
-![OpenAI API](https://img.shields.io/badge/OpenAI_API-000000?style=flat&logo=openai&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-000000?style=flat&logoColor=white)
-![LlamaIndex](https://img.shields.io/badge/LlamaIndex-000000?style=flat&logoColor=white)
-
-### 🧩 Backend & APIs  
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white)
-
-### 🚀 Deployment & Tools  
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)
-![Excel](https://img.shields.io/badge/Excel-217346?style=flat&logo=microsoft-excel&logoColor=white)
-
-### 🗄️ Databases  
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
-![NoSQL](https://img.shields.io/badge/NoSQL-4A4A4A?style=flat)
-
-### 🔐 Development Practices  
-![TDD](https://img.shields.io/badge/TDD-000000?style=flat)
-![SDLC](https://img.shields.io/badge/SDLC-0078D7?style=flat)
-![Agile](https://img.shields.io/badge/Agile-63C132?style=flat)
-![Scrum](https://img.shields.io/badge/Scrum-61DAFB?style=flat)
-![JWT](https://img.shields.io/badge/JWT-000000?style=flat)
-![OAuth 2.0](https://img.shields.io/badge/OAuth_2.0-2C9ED1?style=flat)
-
----
-
-## 💼 About Me
-
-I began my career as a full stack developer, honing my skills in creating dynamic applications that brought ideas to life. Over time, my curiosity drew me toward the transformative potential of AI/ML, igniting a deep interest in using data to solve complex problems. This growing fascination pushed me to explore new ways of thinking, where every dataset became an opportunity to uncover hidden patterns and innovative possibilities.
-
-This shift has reshaped my journey, and I now see myself as an AI/ML engineer, passionate about turning data into meaningful insights that can shape the future. My mission is to harness this evolving expertise to craft innovative solutions that drive progress and address real-world challenges, blending my technical foundation with a forward-thinking approach. I am committed to continuous learning and collaboration, aiming to contribute to projects that make a lasting impact while adapting to the ever-changing landscape of technology.
-
----
-
-## 📫 Connect with Me
-
-📧 vatsal.roy2429@gmail.com  
-🔗 [LinkedIn](https://linkedin.com/in/vatsal-roy)  
-🌐 [Portfolio Website](https://vatsal-roy-portfolio.vercel.app)
-
----
-
-⭐️ Thanks for visiting my profile! If you like what I do, feel free to reach out or check out my pinned repositories.
-
-<!-- GitHub stats from https://github.com/anuraghazra/github-readme-stats 
-![](https://github-readme-stats.vercel.app/api?username=VatsalRoy&theme=radical&hide_border=false&include_all_commits=true&count_private=true)<br/>
--->
+<p align="center">
+  <b>Open to Forward Deployed Engineer · AI Engineer · AI/ML Engineer · ML Engineer roles.</b><br/>
+  <sub>If you're putting LLMs in front of real customers and need them to be reliable, <a href="mailto:vatsal.roy2429@gmail.com">let's talk</a>.</sub>
+</p>

@@ -22,7 +22,7 @@
       @keyframes pulse{0%,100%{opacity:.55}50%{opacity:1}}
       .cursor{animation:blink 1s steps(1) infinite}
       @keyframes blink{50%{opacity:0}}
-      .fade{opacity:0;animation:fade .9s ease-out forwards}
+      .fade{animation:fade .9s ease-out both}
       .f2{animation-delay:.25s}.f3{animation-delay:.5s}.f4{animation-delay:.75s}
       @keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
     </style>
@@ -54,12 +54,12 @@
       <rect width="80" height="34" rx="17" fill="#0f2f26" stroke="#1d5c47"/><text x="40" y="22" text-anchor="middle" fill="#6ee7b7">Evals</text>
     </g>
     <g transform="translate(282,262)">
-      <rect width="68" height="34" rx="17" fill="#2a1f3d" stroke="#4c3a73"/><text x="34" y="22" text-anchor="middle" fill="#c4b5fd">RAG</text>
+      <rect width="108" height="34" rx="17" fill="#2a1f3d" stroke="#4c3a73"/><text x="54" y="22" text-anchor="middle" fill="#c4b5fd">Inference</text>
     </g>
-    <g transform="translate(360,262)">
+    <g transform="translate(400,262)">
       <rect width="82" height="34" rx="17" fill="#3a2a10" stroke="#6b4e1d"/><text x="41" y="22" text-anchor="middle" fill="#fcd34d">MLOps</text>
     </g>
-    <g transform="translate(452,262)">
+    <g transform="translate(492,262)">
       <rect width="168" height="34" rx="17" fill="#1e2536" stroke="#334155"/><text x="84" y="22" text-anchor="middle" fill="#cbd5e1">Customer-facing AI</text>
     </g>
   </g>

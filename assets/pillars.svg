@@ -10,10 +10,10 @@
     <rect x=".5" y=".5" width="386" height="209" rx="18" fill="#0b1220" stroke="#24324f"/>
     <rect x="0" y="0" width="386" height="5" rx="2.5" fill="#38bdf8"/>
     <text x="32" y="52" class="mono k" fill="#38bdf8">01 · BUILD</text>
-    <text x="32" y="96" class="sans t">Agents that run</text>
-    <text x="32" y="134" class="sans d">Tool-using agents, RAG and</text>
-    <text x="32" y="162" class="sans d">self-healing LLM pipelines that</text>
-    <text x="32" y="190" class="sans d">work without a human watching.</text>
+    <text x="32" y="96" class="sans t">Agents &amp; gates</text>
+    <text x="32" y="134" class="sans d">Tool-using agents, benchmarks</text>
+    <text x="32" y="162" class="sans d">and CI quality gates that keep</text>
+    <text x="32" y="190" class="sans d">LLMs honest in production.</text>
   </g>
   <g transform="translate(406,0)">
     <rect x=".5" y=".5" width="386" height="209" rx="18" fill="#0b1220" stroke="#24324f"/>

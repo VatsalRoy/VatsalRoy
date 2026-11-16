@@ -9,9 +9,11 @@
   <a href="https://huggingface.co/vatsal-roy-29"><img src="https://img.shields.io/badge/Hugging_Face-0b1220?style=for-the-badge&logo=huggingface&logoColor=FFD21E"/></a>
 </p>
 
-<img src="assets/stats.svg" width="100%" alt="45 compressed LLMs stress-tested · 85 agent runs graded on DB state · 2.6× hidden cost of context trimming · 0.906 AUC"/>
+## 👋 Who I am
 
-<br/>
+I'm an AI/ML engineer in New York who builds LLM systems and then checks them the way a customer would: **by the answer they produce, not by how confident they sound.**
+
+<img src="assets/stats.svg" width="100%" alt="+36 pts text-to-SQL accuracy gain · 45 compressed LLMs tested · 85 agent runs graded on DB state · 2.6× cost of trimming context"/>
 
 <img src="assets/pillars.svg" width="100%" alt="Build agents and quality gates · Prove them with evals · Ship with the customer"/>
 
@@ -20,47 +22,39 @@
 <table>
   <tr>
     <td width="50%" valign="top">
+      <a href="https://github.com/VatsalRoy/lakehouse-sql-eval"><img src="assets/card-lakehouse.svg" width="100%" alt="lakehouse-sql-eval"/></a>
+      <p align="center"><a href="https://github.com/VatsalRoy/lakehouse-sql-eval"><b>Code</b></a> · <a href="https://github.com/VatsalRoy/lakehouse-sql-eval/blob/main/reports/report.md"><b>Full report ↗</b></a></p>
+    </td>
+    <td width="50%" valign="top">
       <a href="https://github.com/VatsalRoy/quant-gate"><img src="assets/card-quant-gate.svg" width="100%" alt="quant-gate"/></a>
       <p align="center"><a href="https://github.com/VatsalRoy/quant-gate"><b>Code</b></a> · <a href="https://github.com/VatsalRoy/quant-gate/actions/runs/42905797336"><b>CI demo run ↗</b></a></p>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/VatsalRoy/keep-it-warm"><img src="assets/card-keep-it-warm.svg" width="100%" alt="Keep It Warm"/></a>
       <p align="center"><a href="https://github.com/VatsalRoy/keep-it-warm"><b>Code &amp; paper</b></a> · <a href="https://huggingface.co/spaces/vatsal-roy-29/agent-cache-bill-viewer"><b>Trace viewer ↗</b></a></p>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/VatsalRoy/agent-reliability-bench"><img src="assets/card-agent-bench.svg" width="100%" alt="Agent Reliability Bench"/></a>
       <p align="center"><a href="https://github.com/VatsalRoy/agent-reliability-bench"><b>Code</b></a> · <a href="https://vatsalroy.github.io/agent-reliability-bench/"><b>Explore every run ↗</b></a></p>
     </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/VatsalRoy/CardiomegalyPridiction"><img src="assets/card-cardiomegaly.svg" width="100%" alt="Cardiomegaly Detection"/></a>
-      <p align="center"><a href="https://github.com/VatsalRoy/CardiomegalyPridiction"><b>Code &amp; report</b></a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/VatsalRoy/shadow-ai-privacy-auditor"><img src="assets/card-shadow-ai.svg" width="100%" alt="Shadow AI Privacy Auditor"/></a>
-      <p align="center"><a href="https://github.com/VatsalRoy/shadow-ai-privacy-auditor"><b>Code</b></a> · <a href="https://shadow-ai-frontend.onrender.com"><b>Live demo ↗</b></a></p>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/VatsalRoy/protein-lab"><img src="assets/card-protein-lab.svg" width="100%" alt="Protein Lab"/></a>
-      <p align="center"><a href="https://github.com/VatsalRoy/protein-lab"><b>Code</b></a></p>
-    </td>
   </tr>
 </table>
 
-<details>
-  <summary><b>More projects</b></summary>
-  <br/>
-
-| | Project | What it does | Built with |
-|:-:|---|---|---|
-| 🎛️ | [**ML Studio**](https://github.com/VatsalRoy/ml-studio) | No-code Random Forest studio: upload a CSV, tune and evaluate live | Streamlit · scikit-learn |
-| 🖼️ | [**Image Classification**](https://github.com/VatsalRoy/imageClassificationDL) | Image classification with CNNs | TensorFlow / Keras |
-| 🌐 | [**Portfolio**](https://github.com/VatsalRoy/VatsalRoyPortfolio) | My personal site ([live ↗](https://vatsal-roy-portfolio.vercel.app)) | React · Tailwind CSS |
-
 </details>
+
+## 🤝 How I fit your team
+
+| If your team needs to… | I've already… |
+|---|---|
+| **Put LLMs on top of customer data** | Built a text-to-SQL evaluation end to end on Databricks: Lakeflow pipeline, Unity Catalog metric views, MLflow tracking and a Databricks App, deployed as one bundle ([lakehouse-sql-eval](https://github.com/VatsalRoy/lakehouse-sql-eval)) |
+| **Know if an agent really works** | Graded agents on database state across 5 runs per task, and showed an LLM judge approved 60% of failing runs ([agent-reliability-bench](https://github.com/VatsalRoy/agent-reliability-bench)) |
+| **Ship a smaller, cheaper model safely** | Built a PASS/FAIL quality gate for GGUF files that runs in ~4 minutes in GitHub Actions and rejects broken files in ~30 seconds ([quant-gate](https://github.com/VatsalRoy/quant-gate)) |
+| **Keep LLM costs under control** | Measured cost per *solved* question with prompt caching, not just tokens, and found where "savings" backfire ([keep-it-warm](https://github.com/VatsalRoy/keep-it-warm)) |
+| **Keep sensitive data out of AI tools** | Built a detector that redacts PII and credentials before a prompt leaves the company, with a live demo ([shadow-ai-privacy-auditor](https://github.com/VatsalRoy/shadow-ai-privacy-auditor)) |
+| **Catch regressions before customers do** | Wired nightly regression gates, CI exit codes and reproducible reports into my projects, so quality is checked automatically |
+| **Explain results to non-engineers** | Write every project up in plain English: what I expected, what happened, and where it falls short |
 
 ## Experience
 
@@ -95,6 +89,8 @@ React, Node.js and REST APIs, the foundation that lets me ship AI end to end.
   <img src="https://img.shields.io/badge/spaCy-0b1220?style=flat-square&logo=spacy&logoColor=09A3D5"/>
   <img src="https://img.shields.io/badge/PySpark-0b1220?style=flat-square&logo=apachespark&logoColor=E25A1C"/>
   <img src="https://img.shields.io/badge/Databricks-0b1220?style=flat-square&logo=databricks&logoColor=FF3621"/>
+  <img src="https://img.shields.io/badge/Unity_Catalog-0b1220?style=flat-square&logo=databricks&logoColor=FF3621"/>
+  <img src="https://img.shields.io/badge/MLflow-0b1220?style=flat-square&logo=mlflow&logoColor=0194E2"/>
   <img src="https://img.shields.io/badge/Airflow-0b1220?style=flat-square&logo=apacheairflow&logoColor=017CEE"/>
   <img src="https://img.shields.io/badge/SageMaker-0b1220?style=flat-square&logo=amazonaws&logoColor=FF9900"/>
   <img src="https://img.shields.io/badge/Streamlit-0b1220?style=flat-square&logo=streamlit&logoColor=FF4B4B"/>

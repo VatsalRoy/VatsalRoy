@@ -10,9 +10,9 @@
   <rect x=".5" y=".5" width="1199" height="149" rx="18" fill="#0b1220" stroke="#24324f"/>
   <g stroke="#1e293b"><path d="M300 30v90M600 30v90M900 30v90"/></g>
   <g class="sans" text-anchor="middle">
-    <g class="c"><text x="150" y="76" class="num" fill="#38bdf8">45</text><text x="150" y="108" class="lbl">compressed LLMs tested</text></g>
-    <g class="c c2"><text x="450" y="76" class="num" fill="#34d399">85</text><text x="450" y="108" class="lbl">agent runs graded on DB state</text></g>
-    <g class="c c3"><text x="750" y="76" class="num" fill="#a78bfa">2.6×</text><text x="750" y="108" class="lbl">cost of trimming context</text></g>
-    <g class="c c4"><text x="1050" y="76" class="num" fill="#fbbf24">0.906</text><text x="1050" y="108" class="lbl">AUC, chest X-ray CNN</text></g>
+    <g class="c"><text x="150" y="76" class="num" fill="#fb923c">+36 pts</text><text x="150" y="108" class="lbl">text-to-SQL accuracy gain</text></g>
+    <g class="c c2"><text x="450" y="76" class="num" fill="#38bdf8">45</text><text x="450" y="108" class="lbl">compressed LLMs tested</text></g>
+    <g class="c c3"><text x="750" y="76" class="num" fill="#34d399">85</text><text x="750" y="108" class="lbl">agent runs graded on DB state</text></g>
+    <g class="c c4"><text x="1050" y="76" class="num" fill="#a78bfa">2.6×</text><text x="1050" y="108" class="lbl">cost of trimming context</text></g>
   </g>
 </svg>
